@@ -4,8 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      table {
+        text-align: center;
+        font-size: 40px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Get started with table lesson</h1>
+    <table width="800" cellpadding="2" cellspacing="2" border="2">
+      <tr>
+        <td colspan="8" style="background-color: rgb(16, 142, 225)">
+          MY FIRST TABLE
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: rgb(16, 142, 225)">First cell</td>
+        <td style="background-color: rgb(16, 142, 225)">Second cell</td>
+        <td colspan="6" rowspan="3" style="background-color: yellow">
+          6 cell merget together
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: yellow">
+          2 cells merget into one
+        </td>
+      </tr>
+      <tr>
+        <td style="background-color: yellow">1st cell 3rd row</td>
+        <td style="background-color: yellow">2nd cell 3rd row</td>
+      </tr>
+      <tr>
+        <td colspan="8" style="background-color: yellow">
+          Do you like tables?
+        </td>
+      </tr>
+    </table>
   </body>
 </html>
